@@ -1,0 +1,18 @@
+[2026-10-18 10:00:00]
+Spent the last 2 hours debugging the capture importer.
+
+[2026-10-18 12:30:00]
+Idea: a pocket field guide to local birds.
+
+[2026-10-18 14:00:00]
+A useful note does not need a folder before it can be saved.
+
+[2026-10-18 17:00:00]
+Spent the last 1 hour at the gym.
+
+[2026-10-19 09:15:00]
+Build the smallest capture flow that stays out of the way.
+
+[2026-10-19 10:30:00]
+Walking thought: keep the original notes and regenerate the timeline.
+
