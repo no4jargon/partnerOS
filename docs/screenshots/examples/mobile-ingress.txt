@@ -1,0 +1,25 @@
+$ ls "$DATA_DIR/ingress/dropbox/"*.txt
+ingress/dropbox/phone-dictation.txt
+ingress/dropbox/phone-idea.txt
+
+$ cat "$DATA_DIR/ingress/dropbox/phone-dictation.txt"
+Quick walking note: ask better questions before choosing a tool.
+
+$ cat "$DATA_DIR/ingress/dropbox/phone-idea.txt"
+Idea: a neighborhood map of quiet places to read.
+
+$ ./scripts/process_inbox.sh "$DATA_DIR"
+$ echo $?
+0
+
+$ ls "$DATA_DIR/ingress/dropbox/archive/phone-"*
+archive/phone-dictation.txt.imported
+archive/phone-idea.txt.imported
+
+$ tail -n 6 "$DATA_DIR/notes.txt"
+[2026-10-19 11:45:00]
+Quick walking note: ask better questions before choosing a tool.
+
+[2026-10-19 11:46:00]
+Idea: a neighborhood map of quiet places to read.
+

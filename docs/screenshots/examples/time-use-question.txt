@@ -1,0 +1,12 @@
+# Time-use analyst · feature preview
+# DATA_DIR: synthetic journal; STATE_DIR: generated demo analysis.
+
+$ partneros --state-dir "$STATE_DIR" time-use ask \
+    --data-dir "$DATA_DIR" --week 2026-10-12 \
+    "Where did my time go last week?"
+Last week was mostly split across deep_work: 720m, exercise: 120m, meals: 120m, meetings: 120m.
+
+$ partneros --state-dir "$STATE_DIR" time-use ask \
+    --data-dir "$DATA_DIR" --week 2026-10-12 \
+    "How much deep work did I do?"
+Deep work totaled 720 minutes.
